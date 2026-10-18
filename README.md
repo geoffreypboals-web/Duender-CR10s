@@ -1,24 +1,12 @@
+# Build manuals
 
-Link to files https://drive.google.com/drive/folders/1bhVlcpqqxtdof4gGOqFR5z-NGh2rAW9Y?usp=drive_link
+Mobile-friendly, step-by-step ("Lego style") build manuals for the Duender family. Plan: [`design/manuals/PLAN.md`](../design/manuals/PLAN.md).
 
+| Edition | Printer | Status |
+|---|---|---|
+| [**C300-V3**](editions/c300-v3/README.md) | 2 × CR-10 V3 → 300 CoreXY, triple Z, MGN12H, MedusaHC-ready | Draft 2026-10-10 (from the human's CR10 manual + review findings). Not test-built |
+| [**C400-S4**](editions/c400-s4/README.md) | CR-10 S4 (metal only) + new cut 2040/2020 → 400 CoreXY, 4Z, MGN12H, AC bed, MedusaHC-ready | Draft 2026-10-12 (schematic CAD). Not test-built |
+| [**C500-S5**](editions/c500-s5/README.md) | CR-10 S5 (metal only) + new cut 2040/2020 → 500 CoreXY, 4Z, MGN12H, AC bed, MedusaHC-ready | Draft 2026-10-12 (schematic CAD). Not test-built |
+| E220-S1P, C300-V4, C300-MIX24, C300-12V | see the plan | not started |
 
-# Combined PDF manuals (Lego edition, MGN9 X)
-
-One PDF per printer, made from the 🧱 `-mgn9x` chapters (T-015, owner 2026-10-14):
-
-- [C300-V3](c300-v3-mgn9x.pdf): from `manual/editions/c300-v3/`
-- [C400-S4](c400-s4-mgn9x.pdf): from `manual/editions/c400-s4/`
-- [C500-S5](c500-s5-mgn9x.pdf): from `manual/editions/c500-s5/`
-- [Upgrades](upgrades-mgn9x.pdf) (all sizes): from `manual/editions/upgrades/`
-
-Each PDF has a cover, a contents page with page numbers, the edition's `README-mgn9x.md`, then every chapter in the
-order of its contents table (Chapter 0 extrusions, 1–12, Appendix A), all clean `-mgn9x` files. Build history and owner
-questions are not printed: they're in [`../REVIEW-NOTES-mgn9x.md`](../REVIEW-NOTES-mgn9x.md). The build prints any history wording it finds (`history words in the text`) and any link without a target. Links between chapters jump inside the PDF. Links to files outside the PDF go
-to GitHub (default branch).
-
-**The PDFs are snapshots.** Rebuild them after editing any chapter (about 15 s per edition):
-
-```bash
-python3 -m venv /tmp/pdfenv && /tmp/pdfenv/bin/pip install weasyprint markdown beautifulsoup4
-cd /home/gboals/Toolchanger-Research && /tmp/pdfenv/bin/python manual/build_pdf.py   # or: ... build_pdf.py c300-v3
-```
+Images are in `images/` and stored with **Git LFS**. Run `git lfs install` once on each machine (Windows D: and lambda2), then `git lfs pull`.
