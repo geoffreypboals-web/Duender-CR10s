@@ -1,3 +1,7 @@
+
+Link to files https://drive.google.com/drive/folders/1bhVlcpqqxtdof4gGOqFR5z-NGh2rAW9Y?usp=drive_link
+
+
 # Combined PDF manuals (Lego edition, MGN9 X)
 
 One PDF per printer, made from the 🧱 `-mgn9x` chapters (T-015, owner 2026-10-14):
