@@ -2,6 +2,9 @@
 
 Mobile-friendly, step-by-step ("Lego style") build manuals for the Duender family. Plan: [`design/manuals/PLAN.md`](../design/manuals/PLAN.md).
 
+
+> **Non-commercial component:** the toolhead uses the **Sherpa Mini** (ANNEX non-commercial licence), and the designs build on GPL-2.0/GPL-3.0 projects. Personal builds are fine. Don't sell printers, kits or manuals made from this without reading [`NOTICE.md`](NOTICE.md).
+
 | Edition | Printer | Status |
 |---|---|---|
 | [**C300-V3**](editions/c300-v3/README.md) | 2 × CR-10 V3 → 300 CoreXY, triple Z, MGN12H, MedusaHC-ready | Draft 2026-10-10 (from the human's CR10 manual + review findings). Not test-built |
