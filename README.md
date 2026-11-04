@@ -1,5 +1,12 @@
 # Build manuals
 
+> **This repo is a partial copy.** It holds only the top-level files of the
+> manual folder (notes, figures, `build_pdf.py`, `make_frame_editions.py`,
+> the CR10-S5 stock parts). The `editions/`, `images/` and `pdf/` folders and
+> `../design/...` paths linked below are not here: they live in the
+> Toolchanger-Research repo under `manual/` (and `design/`, `cad/`), where
+> these links resolve.
+
 Mobile-friendly, step-by-step ("Lego style") build manuals for the Duender family. Plan: [`design/manuals/PLAN.md`](../design/manuals/PLAN.md).
 
 
