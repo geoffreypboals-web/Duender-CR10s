@@ -20,3 +20,8 @@ Mobile-friendly, step-by-step ("Lego style") build manuals for the Duender famil
 | E220-S1P, C300-V4, C300-MIX24, C300-12V | see the plan | not started |
 
 Images are in `images/` and stored with **Git LFS**. Run `git lfs install` once on each machine (Windows D: and lambda2), then `git lfs pull`.
+
+To build the manuals, install dependencies:
+```bash
+pip install -r requirements.txt
+```
