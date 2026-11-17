@@ -52,4 +52,4 @@ Rules (owner): no build history in the printed chapters; owner notes stay in `RE
 
 ## 5. Order of work
 
-Owner decisions (§1) → model `UPGRADES=1` + collision check (§2.1–2.3) → re-run the numbers (§2.5) → pictures (§2.4) → upgrade chapter pictures + PDF → the three manuals (§3) → PDFs (§4.1) → copy to `D:\Toolchanger-Research` on mastercomputerb.
+Owner decisions (§1) → model `UPGRADES=1` + collision check (§2.1–2.3) → re-run the numbers (§2.5) → pictures (§2.4) → upgrade chapter pictures + PDF → the three manuals (§3) → PDFs (§4.1) → copy to the local Toolchanger-Research checkout.
